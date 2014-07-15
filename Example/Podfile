@@ -1,0 +1,10 @@
+target 'EPSReactiveCocoaExtensions', :exclusive => true do
+  pod "EPSReactiveCocoaExtensions", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "EPSReactiveCocoaExtensions", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+end
