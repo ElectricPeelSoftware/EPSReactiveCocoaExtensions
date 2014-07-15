@@ -1,0 +1,29 @@
+PODS:
+  - EPSReactiveCocoaExtensions (0.1.0):
+    - ReactiveCocoa (~> 2.3)
+  - Expecta (0.3.1)
+  - ReactiveCocoa (2.3.1):
+    - ReactiveCocoa/UI
+  - ReactiveCocoa/Core (2.3.1):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.3.1)
+  - ReactiveCocoa/UI (2.3.1):
+    - ReactiveCocoa/Core
+  - Specta (0.2.1)
+
+DEPENDENCIES:
+  - EPSReactiveCocoaExtensions (from `../`)
+  - Expecta
+  - Specta (~> 0.2.1)
+
+EXTERNAL SOURCES:
+  EPSReactiveCocoaExtensions:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EPSReactiveCocoaExtensions: 272a6633e926c497e19bfd0bf411fbe66352b7e6
+  Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
+  ReactiveCocoa: dca75777b9d18990c8714a3a6f2149f29b4d1462
+  Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
+
+COCOAPODS: 0.33.1
