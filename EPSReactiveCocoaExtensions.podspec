@@ -10,13 +10,7 @@
 Pod::Spec.new do |s|
   s.name             = "EPSReactiveCocoaExtensions"
   s.version          = "0.1.0"
-  s.summary          = "A short description of EPSReactiveCocoaExtensions."
-  s.description      = <<-DESC
-                       An optional longer description of EPSReactiveCocoaExtensions
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
+  s.summary          = "Extensions to ReactiveCocoa classes."
   s.homepage         = "https://github.com/ElectricPeelSoftware/EPSReactiveCocoaExtensions"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
@@ -28,7 +22,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes'
-  s.resources = 'Pod/Assets/*.png'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
