@@ -1,5 +1,5 @@
 PODS:
-  - EPSReactiveCocoaExtensions (0.1.0):
+  - EPSReactiveCocoaExtensions (0.2.0):
     - ReactiveCocoa (~> 2.3)
   - Expecta (0.3.1)
   - ReactiveCocoa (2.3.1):
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  EPSReactiveCocoaExtensions: 272a6633e926c497e19bfd0bf411fbe66352b7e6
+  EPSReactiveCocoaExtensions: f8f8582688f1f52189575647c0e4f783e3f5f120
   Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
   ReactiveCocoa: dca75777b9d18990c8714a3a6f2149f29b4d1462
   Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
